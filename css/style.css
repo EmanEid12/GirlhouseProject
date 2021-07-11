@@ -1,0 +1,550 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #1a1a1a;
+}
+/*  Start header*/
+header {
+    height: 250px;
+}
+header img {
+    max-width: 100%;
+    padding: 40px;
+}
+header nav {
+    float: right;
+    margin-right: 250px;
+    margin-top: 70px;
+
+}
+header nav ul {
+    float: right;
+    list-style: none;
+    border: 1px solid #e1b838;
+}
+header nav li {
+    margin: 10px;
+    padding: 10px;
+    float: left;
+    list-style: none;
+    font-weight: bold;
+
+}
+header nav li a {
+    color: #f0b922;
+    font-size: 18px;
+    font-family: Open Sans Regular;
+    text-decoration: none;
+
+
+}
+header a:hover {
+    background-color: #f0b922;
+    color: #070606;
+    padding: 5px;
+}
+/* End header*/
+
+/* Start Section 1*/
+ .section1{
+     height:500PX;
+     background-image: url(../images/Background.png);
+     background-repeat: no-repeat;
+     position:relative;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+}  
+ .section1 .parent-party {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}  
+ .section1 .parent-party .text{
+    width: 200px;
+    text-align: center;
+    border: 4px solid #f0b922;
+    margin-left: 50px;
+}
+.parent-party .text .one{
+    font-size: larger ;
+     letter-spacing: 2px;
+     background-color: #f0b922;
+     width: 193px;
+     padding: 5px;
+} 
+.parent-party .text .two{
+    font-size: larger;
+    letter-spacing: 0.1px;
+    color: white;
+    padding: 5px;
+}
+.section1 .food p{
+    color: whitesmoke;
+    font-size: larger;
+    word-spacing: 2px;
+}
+ .parent-party ul{
+     padding: 0;
+     margin: 0;
+     text-align: center;
+}
+ .parent-party li{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    
+    border-radius: 50%;
+    border: 2px solid #f0b922
+}
+ ul li:hover {
+    background-color:#f0b922;
+    cursor: pointer;
+    transition: 0.3s ease-in-out
+}
+.section1 .pic{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.section1 .pic img{
+    max-width: 100%;
+    max-height: 545px;
+}
+.section1 .photo{
+    position: absolute;
+    top: 0;
+    right: 0;
+   
+}
+.section1 .photo img{
+    max-width: 100%;
+    max-height: 545px;
+    float: right;
+}
+/* End Section 1*/
+
+/* Start Section 2*/
+.section2{
+    height: 1000px;
+    background-image: url(../images/Background2.png);
+    margin-top: 60px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section2 p{
+    text-align: center;
+    color: white;
+    padding-top: 40px;
+    font-size: 42px;
+    font-weight: bolder;
+    font-family: monospace;
+    text-shadow: 4px 4px 6px #000000;
+}
+.parent-pic{
+      display: flex;
+      justify-content: center;
+}
+.parent-pic img {
+    transition: 1s ease-in-out;
+}
+.parent-pic img:hover {
+    transform: rotateY(45deg);
+    transform-style: preserve-3d;
+}
+.parent-text{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.parent-text .chicken {
+    width: 260px;
+    border: 3px solid  #f0b922 ;
+    height: 160px;
+}
+.parent-text .chicken h1{
+    background-color: #f0b922;
+    margin-top: 0;
+    padding: 5px;
+
+}
+.parent-text .chicken h4{
+    color: aliceblue;
+    padding: 2px;
+    font-family:system-ui;
+    font-weight: normal;
+    margin: 3px;
+}
+.parent-text .chicken h4 span{
+    float: right;
+}
+.parent-text .chicken2 {
+    width: 260px;
+    border: 3px solid  #f0b922 ;
+    height: 160px;
+   
+}
+.parent-text .chicken2 h1{
+    background-color: #f0b922;
+    margin-top: 0;
+    padding: 5px;
+}
+.parent-text .chicken2 h4{
+    color: aliceblue;
+    padding: 2px;
+    font-family:system-ui;
+    font-weight: normal;
+    margin: 3px;
+}
+.parent-text .chicken2 h4 span{
+    float: right;
+}
+.parent-text .chicken3 {
+    width: 260px;
+    border: 3px solid  #f0b922 ;
+    height: 160px;
+   
+}
+.parent-text .chicken3 h1{
+    background-color: #f0b922;
+    margin-top: 0;
+    padding: 5px;
+}
+.parent-text .chicken3 h4{
+    color: aliceblue;
+    padding: 2px;
+    font-family:system-ui;
+    font-weight: normal;
+    margin: 3px;
+}
+.parent-text .chicken3 h4 span{
+    float: right;
+}
+/* End Section 2*/
+
+/* Start Section 3*/
+.section3{
+    height: 600px;
+    background-image: url(../images/Background.png);
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    background-size: cover;
+}
+.section3 .parent-beef{
+    display: flex;
+}
+.section3 .parent-beef .beef img{
+   height: 600px;
+}
+
+.parent-beef img {
+    transition: 1s ease-in-out;
+}
+.parent-beef img:hover {
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;
+}
+.section3 .parent-beef .text-beef{
+    margin-left: 300px;
+   padding-top: 40px;
+   float: right;
+}
+.section3 .parent-beef .text-beef p{
+     color:#f0b922 ;
+     font-size: 38px;
+     font-family: monospace;
+     font-weight: bolder;
+    
+}
+.section3 .parent-beef .text-beef h2{
+    color:#f0b922 ;
+    font-size: 32px;
+    font-family: monospace;
+    font-weight: bolder;
+    
+}
+.section3 .parent-beef .text-beef h4{
+    color:#f0b922 ;
+    font-size: 28px;
+    font-family: monospace;
+    font-weight: bolder;
+    
+}
+.section3 .parent-beef .text-beef button{
+    width: 30%;
+    background-color: #f0b922;
+    padding: 5px;
+    font-size: large;
+    font-weight: bold;
+    border: 1px solid  #f0b922;
+    cursor: pointer;
+    
+}
+.section3 .parent-beef .text-beef img{
+    width: 30%;
+    margin-top: 40px;
+    margin-left: 200px;
+}
+.section3 .parent-beef .text-beef h5{
+    color:#f0b922 ;
+    font-size: 24px;
+    font-family: monospace;
+    font-weight: bolder;
+    margin-left: 120px;
+    margin-top: 20px;
+    text-shadow: 4px 4px 6px #000000;
+}
+/* End Section 3*/
+
+/* Start Section 4*/
+.section4{
+    background-image: url(../images/Background.png);
+    height: 600px;
+    background-repeat: no-repeat;
+    margin-top: 60px;
+    background-size: cover;
+}
+.section4 .parent-month{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    margin-left: 50px;
+   
+}
+.section4 .parent-month .month {
+    width: 310px;
+    height: 130px;
+    border: 2px solid  #f0b922;
+    text-align: center;
+}
+.section4 .parent-month .month h2{
+    margin-top: 0;
+    padding: 4px;
+    background-color: #f0b922;
+}
+.section4 .parent-month .month p{
+    color: aliceblue;
+    font-size: 24px;
+    font-weight: bolder;
+    font-family: cursive;
+   
+}
+.section4 .parent-month .lorem p{
+    width: 310px;
+    height: 130px;
+    color: aliceblue;
+    font-family: cursive;
+    font-size: medium;
+}
+.section4 .parent-month .lorem img{
+    width: 70%;
+    float: right;
+}
+.section4 .parent-photo{
+    display: flex;
+    justify-content: center;
+}
+.section4 .parent-photo img{
+    max-width: 500px;
+    height: 400px;
+    margin-left: 60px;
+}
+.section4 .parent-photo .photo{
+    max-width: 300px;
+    height: 300px;
+    float: center;
+    margin-right: 150px;
+}
+/* End Section 4*/
+
+/* Start Section 5*/
+.section5{
+    background-image: url(../images/Background.png);
+    height: 600px;
+    margin-top: 130px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section5  .parent-method {
+    display: flex;
+justify-content: space-between;
+}
+.section5  .parent-method .eat {
+    padding-top: 110px;
+}
+.section5  .parent-method .eat img{
+    max-width: 400px;
+   
+}
+.section5  .parent-method .method{
+    width: 300px;
+    border: 4px solid #f0b922;
+    height: 200px;
+    margin-right: 300px;
+    margin-top: 160px;
+}
+.section5 .parent-method .method h2{
+   background-color: #f0b922;
+    margin-top: 0;
+    padding: 5px;
+    font-size: 30px;
+    font-family: monospace;
+}
+.section5 .parent-method .method p{
+    padding: 10px;
+    color: aliceblue;
+    font-size: 14px;
+    font-family: cursive;
+}
+/* End Section 5*/
+/* Start Section 6*/
+.section6{
+    height: 650px;
+    background-image: url(../images/Background.png);
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    background-size: cover;
+}
+.section6 .parent-music{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    margin-left: 50px;
+    
+   
+}
+.section6 .parent-music .music{
+    width: 300px;
+    border: 4px solid #f0b922;
+    text-align: center;
+}
+.section6 .parent-music  .music h2{
+ background-color: #f0b922;
+ margin-top: 0;
+ padding: 10px;
+ font-family: sans-serif;
+ font-weight: bold;
+}
+.section6 .parent-music .music p{
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+.section6 .parent-music .live{
+    width: 300px;
+    margin-left: 40px;
+    margin-top: 60px;
+}
+.section6 .parent-music .live p{
+    color: antiquewhite;
+    font-family: cursive;
+    font-size: 18px;
+    
+}
+.section6 img{
+    width: 1420px;
+    height: 385px;
+}
+/* End Section 6*/
+
+/* Start Section 7*/
+.section7{
+    margin-top:10px;
+    height: 400px;
+}
+.section7 .parent-logo2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.section7 .parent-logo2 .log{
+    text-align: center;
+}
+.section7 .parent-logo2 .text-2{
+    text-align: center;
+}
+.section7 .parent-logo2 .text-2 h2{
+    color: #f0b922;
+    text-shadow: 4px 4px 6px #000000;
+    font-size: 32px;
+    font-family: monospace;
+    font-weight: bolder;
+}
+.section7 .parent-home{
+    display: flex;
+    justify-content: center;
+}
+.section7 .parent-home .open{
+    width: 300px;
+    border: 4px solid  #f0b922;
+    text-align: center;
+}
+.section7 .parent-home .open h2{
+    background-color: #f0b922;
+      margin-top: 0;
+      text-align: center;
+      padding: 5px;
+      font-family: monospace;
+      font-weight: bolder;
+      font-size: 28px;
+}
+.section7 .parent-home .open p{
+  color: antiquewhite;
+  padding: 5px;
+  text-align: center;
+  font-family: monospace;
+  font-size: 16px;
+}
+.section7 .parent-home .home{
+    padding-left: 70px;
+    color: antiquewhite;
+}
+.section7 .parent-home .home p{
+    font-family: monospace;
+    font-size: 20px;
+}
+.section7 .parent-home .home span{
+    font-family: monospace;
+    font-size: 20px;
+    margin-left: 30px;
+}
+/* End Section 7*/
+
+/* start Footer*/
+.parent-foot{
+    display: flex;
+    justify-content: space-between;
+}
+.parent-foot .street {
+    margin-left: 60px;
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: monospace;
+    padding-top: 45px;
+}
+.parent-foot .icon{
+    padding-top: 20px;
+    margin-right: 150px;
+}
+.parent-foot .icon .fab{
+    background-color: #f0b922;
+    font-size: 36px;
+    padding: 5px;
+    margin: 10px;
+    width: 50px;
+    height:50px;
+    text-align: center;
+}
+.parent-foot .icon span{
+    color: #f0b922;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+/* End Footer*/
